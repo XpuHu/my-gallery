@@ -1,9 +1,13 @@
+import { Container, Nav, Navbar } from 'react-bootstrap';
+
 const Footer = () => {
 
     return (
-        <header>
-            Футер @2022
-        </header>
+        <Navbar bg='light' expand='true'>
+            <Container>
+                2022
+            </Container>
+        </Navbar>
     );
 }
 
